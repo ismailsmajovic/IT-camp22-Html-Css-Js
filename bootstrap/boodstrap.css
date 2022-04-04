@@ -1,0 +1,234 @@
+*{
+    margin:auto;
+}
+.nav{
+    display:flex;
+    width:100vw;
+    height: 100px;
+    position:fixed;
+    background-color:rgb(255, 255, 255);
+}
+.log{
+   align-items: flex-end;
+   flex-direction:row-reverse;
+   justify-content:end;
+}
+.h11{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.meni{
+   display:flex;
+   align-items:center;
+   flex-direction:row;
+   justify-content:space-around;
+   font-size:14px;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.meni:hover{
+   color:blue;
+}
+h2{
+    margin:15px;
+}
+.slika{
+    display:flex;
+   background-color: url("./hero-bg.jpg"); 
+   position: relative;
+   
+}
+.img1{
+  width: 100vw;
+  opacity: 0.5;
+  width: 100vw;
+  height: 900px;
+}
+.text{
+   position: absolute;
+   bottom: 350px;
+   right: 880px;
+   color:black;
+   padding-left: 0px;
+   padding-right: 0px;
+}
+h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 52px;
+}
+p{
+    font-size: 20px;
+    color:black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.b{
+    color:blue;
+}
+.dugmad{
+   position: absolute;
+   bottom: 270px;
+   right: 1020px;
+   padding-left: 0px;
+   padding-right: 0px;
+   display: flex;
+}
+.prvo-dugme{
+    background-color: blue;
+    color: ivory;
+    margin-right:10px;
+    width:160px;
+    height: 45px;
+}
+.drugo-dugme{
+   width:160px;
+   height: 45px;
+   font-size: 20px;
+   margin-top: 20px;
+   margin-left: 10px;
+}
+.template{
+    display:flex;
+    width: 100vw;
+    height:400px;
+    background-color: aqua;
+    align-items: flex-start;
+    flex-direction:row;
+    justify-content:space-between;
+}
+.prvi{
+   /*width: 150px;
+   height: 100px;*/
+   width: 280px;
+   height: 280px;
+   background-color:white;
+}
+#prvi{
+    font-size: 50px;
+    margin:20px;
+}
+h3{
+    font-size:20px;
+    margin: 20px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+p{
+    text-align: center;
+    font-size: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.prvi:hover{
+    background-color: blue;
+    transition:left;
+    transition-duration: 200ms;
+}
+.drugi{
+   width: 280px;
+   height: 280px;
+   background-color:white;
+}
+#drugi{
+   font-size: 50px;
+   margin:20px;
+}
+.drugi:hover{
+   background-color: blue;
+   transition:left;
+   transition-duration: 200ms;
+}
+.treci{
+   width: 280px;
+   height: 280px;
+   background-color:white;
+}
+#treci{
+   font-size: 50px;
+   margin:20px;
+}
+.treci:hover{
+   background-color: blue;
+   transition:left;
+   transition-duration: 200ms;
+}
+.cetvrti{
+   width: 280px;
+   height: 280px;
+   background-color:white;
+}
+#cetvrti{
+   font-size: 50px;
+   margin:20px;
+}
+.cetvrti:hover{
+   background-color: blue;
+   transition:left;
+   transition-duration: 200ms;
+}
+.fa-solid-fa-gauge-max{
+   size: 50px;
+   color:red;
+}
+.team{
+  width:100vw;
+  height: 660px;
+  background-color:#b5e7f1;;
+}
+.image{
+  display:flex;
+  /*width: 990px;*/
+  align-items:center;
+  flex-direction:row;
+  justify-content:space-between;
+  margin-top: 100px;
+}
+.nekiDiv{
+  background-color: #b5e7f1;
+  width: 400vw;
+  height: 40px;
+}
+h4{
+  font-size: 40px;
+}
+h5{
+  font-size: 25px;
+}
+.images1{
+  width:240px;
+  height:330px;
+  background-color: white;
+  box-shadow: rgb(0, 0, 0) 0px 0px 13px 2px;
+}
+.images2{
+  width:240px;
+  height: 330px;
+  background-color: white;
+  box-shadow: rgb(0, 0, 0) 0px 0px 13px 2px;
+}
+.images3{
+  width:240px;
+  height: 330px;
+  background-color: white;
+  box-shadow: rgb(0, 0, 0) 0px 0px 13px 2px;
+
+}
+.images4{
+  width:240px;
+  height:330px;
+  background-color: white;
+  box-shadow: rgb(0, 0, 0) 0px 0px 13px 2px;
+}
+img{
+  width:240px;
+  height: 250px;
+}
+h6{
+  /*text-align: center;*/
+  margin: 15px;
+  font-size: 20px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+span{
+  /*text-align: center;*/
+  margin-left: 15px;
+  padding-bottom: 10px;
+  font-size:15px;
+  color: rgb(136, 140, 143);
+  font-family: Arial, Helvetica, sans-serif;
+}

@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,600&display=swap');
+#prvi{
+    width: 250px;
+    height: 470px;
+    background-color: #fdc503;
+    border-radius: 15px;
+    border: 3px solid black;   /*rgb(59, 61, 66)*/
+    box-shadow: rgb(0, 0, 0) 0px 0px 13px 2px;
+    margin: auto;
+    display: inline-block;
+    margin: 10px;
+}
+#prvi{
+    width: 250px;
+    height: 470px;
+    background-color: #fdc503;
+    border-radius: 15px;
+    border: 3px solid black;   /*rgb(59, 61, 66)*/
+    box-shadow: rgb(0, 0, 0) 0px 0px 13px 2px;
+    margin: auto;
+    display: inline-block;
+    margin: 10px;
+}
+#prvi{
+    width: 250px;
+    height: 470px;
+    background-color: #fdc503;
+    border-radius: 15px;
+    border: 3px solid black;   /*rgb(59, 61, 66)*/
+    box-shadow: rgb(0, 0, 0) 0px 0px 13px 2px;
+    margin: auto;
+    display: inline-block;
+    margin: 10px;
+}
+
+#prvi{
+    width: 250px;
+    height: 470px;
+    background-color: #fdc503;
+    border-radius: 15px;
+    border: 3px solid black;   /*rgb(59, 61, 66)*/
+    box-shadow: rgb(0, 0, 0) 0px 0px 13px 2px;
+    margin: auto;
+    display: inline-block;
+    margin: 10px;
+}
+#car{
+    height: 20px;
+    width: 25px;
+    color: red;
+    padding:10px 10px 50px 90px;
+    font-size: 50px;
+}
+h2{
+    text-align: center;
+}
+p{
+    /*text-align: center;*/
+    text-align: justify;
+    /*text-align: center;*/
+    /*padding:10px 10px 10px 10px;*/
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+h1{
+    text-align: center;
+    font-size: 30px;
+    /*width:100px;
+    height: 100px;*/
+
+}
+body{
+    margin: auto;
+}
