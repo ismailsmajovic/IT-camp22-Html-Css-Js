@@ -10,12 +10,24 @@ form{
     align-items: center;
     flex-direction: column;
     justify-content: center;
-    background-color: red;
+    background-color:yellow;
+    border-radius:25px;
+    border: 2px double red;
+    width:500px;
+    height: 230px;
 }
-
-form{
-    display:flex;
-    align-items: center;
-    flex-direction: column;
-    justify-content: center;
+#username{
+    background-color: rgb(105, 105, 250);
+    margin:8px;
+}
+#password{
+    background-color: rgb(105, 105, 250);
+    margin:7px;
+}
+#login{
+    background-color:red;
+    margin:7px;
+    width: 65px;
+    height:25px;
+    border-radius: 25px;
 }
