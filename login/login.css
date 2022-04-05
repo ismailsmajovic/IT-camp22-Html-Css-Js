@@ -1,0 +1,13 @@
+.conteiner{
+    display:flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+    margin-top:150px;
+}
+form{
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
