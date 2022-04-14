@@ -5,7 +5,7 @@
     display:flex;
     width:100vw;
     height: 100px;
-    position:fixed;   
+    position:fixed;
     background-color:rgb(255, 255, 255);
 }
 .log{
