@@ -1,4 +1,4 @@
-const ime = 'max'
+/*const ime = 'max'
 //ime = 39; grsska
 
 let godine = 30 ;
@@ -26,7 +26,9 @@ for( let e =0; e < 100; e++){
     radi nesto
 }
 */
+/*
 let suma = 0;
+
 
 for(let i=0; i<15; i++){
  if(i % 2 !==0){
@@ -34,7 +36,27 @@ for(let i=0; i<15; i++){
  }
 }
 console.log(suma);
+*/
 
+
+
+alert(age);
+const age = promt('Insert your age:');
+
+if(+age < 18 ){
+    console.log('punolotan si')
+}else if (+age > 18){
+    console.log('Dete si:')
+}else{
+    console.log('bedan si');
+}
+
+/*switch(age){
+    case 1:
+        console('upisi korisniika');
+    case 2
+}
+     
 
 
 
