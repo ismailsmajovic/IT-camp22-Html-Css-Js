@@ -20,7 +20,7 @@ if(!suncano){
 }else {
     console.log('nemoj da nosis:')
 }*/
-console.log('PRVI');
+/*console.log('PRVI');
 
 const isSunny = !false;
 
@@ -47,3 +47,8 @@ switch(pravi){
     default :
     console.log('nista ne valja');
 }
+*/
+
+let gTacka = !true;
+
+gTacka ? console.log('tacno'):console.log(netacno);
