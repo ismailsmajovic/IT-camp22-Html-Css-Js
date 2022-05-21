@@ -1,3 +1,5 @@
+//CALL BACK FUNCTION
+
 /*function myDisplayer(something) {
     console.log(something);
   }
@@ -20,13 +22,19 @@
   }
   mycall(5, 5,mydis);*/
 
-let niz = [23,89,23, 'string'];
+let niz = [23,89,0, 'string'];
+let niz2 = [32,98,23,45,"any",-0]
 
 const izvadiNiz =()=>{
     if (niz[2]) {
         console.log(niz[2])
+    }else if(niz2[5]){
+        console.log(niz2[5])
     }else{
-        console.log('ovo nije taca vrednost')
+        console.log('undefinited')
     }
 }
 izvadiNiz();
+
+
+

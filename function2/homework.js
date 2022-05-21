@@ -99,5 +99,5 @@ console.log(mnz(2,4,5));
 
 window.addEventListener('load',unesiBroj);
  //drugo nesto
-
+ 
 
