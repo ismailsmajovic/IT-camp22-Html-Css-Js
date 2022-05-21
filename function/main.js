@@ -42,7 +42,7 @@ izvadiNiz();
 */
 
 //druga vezba
-const niz3 =[2412,93,0,-0,null, 3,[33,32,32],32];
+const niz3 =[2412,93,0,-0, 5, 3,[33,32,32],32];
 
 const takeNiz =() =>{
     for (let index = 0; index <niz3.length; index++) {
@@ -65,6 +65,6 @@ const isSunny = true;
 
 isSunny ?console.log('naocare'):console.log('kisobran');
 
-
+//falsy: undefined, null, 0, -0, NaN, "", false, 0n
 
 
