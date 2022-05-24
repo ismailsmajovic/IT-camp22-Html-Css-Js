@@ -42,7 +42,7 @@ izvadiNiz();
 */
 
 //druga vezba
-const niz3 =[2412,93,0,-0, 5, 3,[33,32,32],32];
+/*const niz3 =[2412,93,0,-0, [0,9], 3,[33,32,32],32];
 
 const takeNiz =() =>{
     for (let index = 0; index <niz3.length; index++) {
@@ -66,5 +66,37 @@ const isSunny = true;
 isSunny ?console.log('naocare'):console.log('kisobran');
 
 //falsy: undefined, null, 0, -0, NaN, "", false, 0n
+*/
 
+//TRECA VEZBA 
+const niz4 =[2,4,32,9, undefined, -0, NaN, ];
+
+const saberi = () =>{
+    for (let index = 0; index < niz4.length; index++) {
+        if (niz4[3]) {
+            console.log('ovo je tacan broj:',niz4[3])
+        }
+         else{
+            console.log('ovo nije tacan broj')
+        }
+        
+    }
+
+}
+saberi();
+
+/*
+const niz3 =[2412,93,0,-0, [0,9], 3,[33,32,32],32];
+
+const takeNiz =() =>{
+    for (let index = 0; index <niz3.length; index++) {
+        //const nizz = array[index];
+        if (niz3[3]) {
+            console.log(niz3[3])
+        }else{
+            console.log('los broj'); //console.log('ovo je neodredjeno');
+        }
+    }
+}
+takeNiz();*/
 
