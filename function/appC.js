@@ -4,7 +4,7 @@ const unesiBroj =()=>{
     const num = console.log('Unesi neki broj:');
 
 
-for (let index = 0; index < num; index++) {                             //index =num              let num = 0; num < 3; num++
+for (let index = 0; index < num; index++) {                            
     //
     if (num > 50) {
        //const num = prompt('Broj mora biti manji od 50');
