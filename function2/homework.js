@@ -43,12 +43,12 @@ for (let index = 0; index < num; index++) {                             //index 
 
     function ispisi(){
         let doc =document.getElementById("content");
-        doc.innerHTML = "BRAVO";
+        doc.innerHTML = "BRAVO, usli ste nas sajt";
         doc.style.color ="rgb(255,0,0)";
         doc.style.fontSize ="100px";
         doc.style.margin ="auto";
         doc.style.marginTop = "200px";
-        doc.style.marginLeft = "550px";
+        doc.style.marginLeft = "400px";
     }
 
     ispisi();
