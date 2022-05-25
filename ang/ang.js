@@ -541,7 +541,7 @@ function checkWin() {
                 winner = computer;
                 // console.log("computer wins");
             } else {
-                score.player++;
+                score.player++;  
                 winner = player;
                 // console.log("player wins");
             }

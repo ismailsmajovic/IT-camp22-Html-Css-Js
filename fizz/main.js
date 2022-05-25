@@ -25,10 +25,9 @@ while(  i++ < 100)
         console.log('BUZZ')
     }else{
         console.log(i)
-    }
+    } 
 }
-
-//  terneri operatori
+// terneri operatori
 const isSunny = true;
 
 if(isSunny){                                        // negacija(!isSunny) =(isSunny === false)

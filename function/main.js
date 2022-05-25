@@ -19,7 +19,7 @@
   const mycall =(broj1, broj2, myCallback)=>{
       const sum = broj1 + broj2;
       myCallback(sum);
-  }
+  }   
   mycall(5, 5,mydis);*/
 
 

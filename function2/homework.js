@@ -87,7 +87,7 @@ unesiBroj();
 
 
 
-
+/*
 const mnz =(a, b, c = false)=>{
     if ( c) {
         return (a+b+c);
@@ -99,5 +99,5 @@ console.log(mnz(2,4,5));
 
 window.addEventListener('load',unesiBroj);
  //drugo nesto
- 
+ */
 
