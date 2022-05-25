@@ -59,16 +59,10 @@ const unesiBroj =()=>{
 
     const num = prompt('Insert some nummber:');
        
-for (let index = 0; index < 3; index++) {                             //index =num              let num = 0; num < 3; num++
+for (let index = 0; index < num; index++) {                             //index =num              let num = 0; num < 3; num++
     const num = prompt('Unesi opet:');
 }
 
-/*if (prompt === num) {
-    for (let index = num; index < num; index++) {
-        const num = prompt('Unesi opet:');
-        
-    }
-}*/
 
 }
 unesiBroj();
