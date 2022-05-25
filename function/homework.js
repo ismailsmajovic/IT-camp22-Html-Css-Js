@@ -12,7 +12,7 @@ for (let index = 0; index < num; index++) {                             //index 
         const num2 = prompt('Unesi broj manji od 10:');
 
         for (let index = 0; index <num2; index++) {
-            if (num2 > 10) {
+            if (num2 > 10) { 
                 const num2 = prompt('NISI TI ZA RACUNARE!')
                 break;
             }else if(num2 < 10){
@@ -57,4 +57,17 @@ unesiBroj();
 
 
 
- 
+ /*const niz = ['bwm', 2, 8];
+
+
+//dodavanje elementa na kraj niza
+niz.push("mercededs");
+console.log(niz);
+//dodavnje na pocetak niza
+//niz.("WW");
+//console.log(niz);
+
+//Za brisanje na kraj niza
+niz.pop("mercedes");
+console.log(niz);
+*/

@@ -1,5 +1,5 @@
 const unesiBroj =()=>{
-
+    //How to convert console app
     //const num = prompt('Unesi neki broj:');
     const num = console.log('Unesi neki broj:');
 
