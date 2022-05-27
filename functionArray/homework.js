@@ -20,3 +20,12 @@ const clanovi = [12, 13, 14, 67, 874, 934, 98]
 
 console.log(nadjiPunoletne(clanovi));
 
+//function concat
+
+const clanovi2 = [12,43, 87, 32, 98];
+
+
+
+
+
+
