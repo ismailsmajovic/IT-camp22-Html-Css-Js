@@ -17,6 +17,7 @@ console.log(niz);
 
 const clan = niz.shift();
 console.log(clan)
+
 //funckija za okrecanje niza===dyigi bau  naopacke
 niz.reverse()
 console.log(niz);

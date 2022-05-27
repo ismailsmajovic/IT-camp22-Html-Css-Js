@@ -44,3 +44,18 @@ unesiBroj();
 
 
 //var num = console.log('broj')
+
+// slicna stvarcica
+const clanovi = [12, 13, 14, 67, 874, 934, 98]
+
+ const nadjiPunoletne =(ages)=>{
+    const addults = [];
+    for (let age of ages) {
+        if (age > 18) {
+            addults.push(age)
+        }
+        
+    }
+ }
+
+console.log(nadjiPunoletne(clanovi));

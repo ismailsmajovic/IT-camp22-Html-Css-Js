@@ -80,6 +80,97 @@ console.log(nadji4(godine4))
 
 
 //FUNKCIJE SA NIZOVIMA
+//U ovom poglavlju cemo da vezbamo sa funkcijama sa nizovima
+// koje smo radili u srijedu kod Farisa na casu: datuma 26.05.2022 godinde u Nomvom Pazrau
+
 //sest
+
 const niz4 =[23, 43, 87, 13, 894, 17, 14, 15];
-niz4.unshift(niz4);
+
+const niz5 =[98, 88];
+
+niz4.push(niz5);
+
+console.log(niz4);
+
+//function  unshift
+
+const niz6 =[323,898]
+niz4.unshift(niz6);
+console.log(niz4);
+
+//function shift
+const niz8 =[423,89];
+niz4.shift(niz8);
+console.log('ovo je funckcija unshift', niz4);
+
+//function reverse
+const niz9 = ['bmw,', 'mercedes', 'audi'];
+niz4.reverse(niz9);
+console.log('ovo je funckcija reverse:', niz4);
+
+//function concat 
+const niz10 = ['alcatel', 'htc'];
+niz4.concat(niz10);
+console.log('ovo je funkcija concat:', niz4);
+
+//function find
+//const trazenaVrednost = imena.find((el) => el >50);
+//console.log(trazenaVrednost);
+//ova funckija vraca samo prvi broj!
+const niz11 = [52, 43, 98, 12, 11];
+
+const traziVrednost = niz11.find((el)=> el < 18);
+console.log(traziVrednost);
+
+//function slice sluzi za uklanjanje elemenata niza oniliko koloko mi zelimo ali prema duzini a ne prema indeksu
+const nizA1= [23, 76, 89,98];
+
+const make = nizA1.slice(3)
+//console.log(nizA1.slice(1));
+console.log(make);
+
+
+//function  splice sliuzi  da unutar niza vrsimo zamenunu , tj. ubacivanje na onim mestima na kojim to zelimo;
+//OVO CEMO DA OBJASNIMO MALO DETLJINIJE NA CASU
+const niz12 = ['pondeljak', 'utorak', 'cetvratak', 'petak'];
+const make2 = niz12.splice(2, );
+console.log(niz12);
+
+//
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
