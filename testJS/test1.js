@@ -7,8 +7,9 @@ const miles = [15,20,1,60,45,120];
 
 const convert =(array) =>{
     const convert = array.map((el)=>el *1.6);
-    const back =
-    //const totalDistanceInKilometers = array.p
+
+    const totalDistanceInKilometers = convert.reduce((total, el)=> total + el)
+    return  totalDistanceInKilometers;
 }
 
 console.log(convert(miles))
