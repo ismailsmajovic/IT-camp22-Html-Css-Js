@@ -14,4 +14,4 @@ const velikaSlova =(nizovi)=>{
 
     return upper;
 }
-console.log(velikaSlova(strings))
+console.log(velikaSlova(strings));

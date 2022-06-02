@@ -11,52 +11,48 @@
 лет стрингс = ["осветници", "капетан Америка", "гвоздени човек", "црни пантер"];*/
 
 
-
-//prvi zadtak 
+//previ zadtak
 const milje = [15,20,1,60,45,120];
 
-const convertMiles =(miles)=>{
-    const con = miles.map((mil) =>{
-        return mil * 1.6
-    });
+const konvertValue =(miles) =>{
+    const con = miles.map((mil)=>{
+        return mil * 1.6;
+    })
 
     const totalDistanceInKilometers = con.reduce((mil, con) =>{
-        
-        return mil+con});
-
+        return mil + con;
+    })
     return totalDistanceInKilometers;
 }
-console.log( 'prvi zadatak , resenje:', convertMiles(milje));
-
-
+console.log('Resenje ovog zadtka je:', konvertValue(milje))
 
 //drugi zadatak
-const numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+const brojevi = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 
-const makeParni =(brojevi) =>{
-    const parni = brojevi.filter((broj) =>{
-        
-        return broj % 2 ===0});
+const parniBrojjevi =(numbers)=>{
+    const kon = numbers.filter((num)=>{
+        return num % 3 === 0;
+    })
 
-    const kvadrat = parni.map((broj) => {
-        return broj * broj
+    const kvadrat = kon.map((num) =>{
+        return num * num;
     });
 
-    const zbir = kvadrat.reduce((prevV, curV)=>prevV+curV);
-
-    return zbir;
-
-
+    const sum = kvadrat.reduce((prev, post)=>{
+        return prev + post;
+    })
+    return sum
 }
-console.log('drugi zadtak, resenje:', makeParni(numbers));
+console.log('ovo je resenje drugog zadatka:', parniBrojjevi(brojevi));
 
+//treci zadtak
+const reci = ["осветници", "капетан Америка", "гвоздени човек", "црни пантер"];
 
+const velikaSlova =(reci)=>{
+    const mala = reci.map((rec)=>{
 
-//treci zadtak 
-const reci = [ "осветници", "капетан Америка", "гвоздени човек", "црни пантер"]
-
-const napraviVelika =(words)=>{
-    const velika = words.map((word)=> word.toUpperCase());
-    return velika;
+     return rec.toLowerCase()});
+     
+    return mala;
 }
-console.log('treci zadtak, resenje:', napraviVelika(reci));
+console.log('ispisi ovde resenje treceg zadatka:', velikaSlova(reci));
