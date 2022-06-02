@@ -25,3 +25,21 @@ const playWithArray =(nizovi)=>{
 }
 console.log(playWithArray(array));
 
+
+// const brojevi = [21, 32, 78, 12, 98] Sledeci niz kilometara pretvoriti u metre, i te metre kvadriraTI I KVADRte tih metrara sabrati i smestity u promenjivu Konacno resenje i na kraju vrati tu promenjicvu
+
+const brojevi = [1, 3, 8, 2, 9];
+
+const metriUKilomerte =(numbers)=>{
+    const metri = numbers.map((num) =>{
+        return num * 100;
+    });
+     const  kvadrat = metri.map((num) =>{
+         return num * num;
+     })
+     const konacnoResenje = kvadrat.reduce((total, num)=>{          //da li stavio totsal ili value ili kavdrat nebitno je reyultat je isti
+         return total + num;
+     });
+     return [  metri, kvadrat, konacnoResenje]; 
+}
+console.log('ovo je resenje:',metriUKilomerte(brojevi));
