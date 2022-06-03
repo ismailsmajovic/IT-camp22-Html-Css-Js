@@ -62,14 +62,15 @@ const metriUKilomerte2 =(numbers2, numbers3)=>{
     const noviniz = numbers2.concat(numbers3);
 
     const metri2 = noviniz.map((nums) =>{
-        return nums * 100;
+        return nums * 100;  
     });
      const  kvadrat2 = metri2.map((nums) =>{
          return nums * nums;
      })
+     cons
      const konacnoResenje2 = kvadrat2.reduce((kvadrat2, nums)=>{          //da li stavio totsal ili value ili kavdrat nebitno je reyultat je isti
          return kvadrat2 + nums;
      });
      return [metri2,  konacnoResenje2]; 
 }
-console.log('ovo je plan Globalista:',metriUKilomerte2(brojevi3, brojevi4));
+console.log('ovo je plan, i radsi samo ako promenimo redosled pozivanja:',metriUKilomerte2(brojevi3, brojevi4));
