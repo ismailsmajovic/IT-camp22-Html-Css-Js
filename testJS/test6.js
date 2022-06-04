@@ -28,7 +28,7 @@ const convertKm =(numbers, numbers2, numbers3)=>{
     }
     fix();*/
 
-    const fix = kvadrat.map((num)=> num.toFixed((1)));         //const kvadrat = parni.map((nums)=>nums*nums);    //nece da vrati funkciju total tj. reduce i da konacan rezultast
+    const fix = kvadrat.map((num)=> num.toFixed((2)));         //const kvadrat = parni.map((nums)=>nums*nums);    //nece da vrati funkciju total tj. reduce i da konacan rezultast
 
     return fix;
 
