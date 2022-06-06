@@ -119,3 +119,37 @@ console.log(fib(n))
 */
 
 
+
+
+
+
+
+
+
+// ovo resenje stvarno radi ALI
+/*
+const arr = [0,1];
+//let a, b;
+
+const makeFibonaci=(num)=>{
+
+    //const num = 400;
+    let a, b;
+    for (let i = 2; i <34 ; i++) {
+        a = arr[i-1];
+        b = arr[i-2];
+        arr.push(a + b);
+    }
+    //return arr;
+    const fibonaci = arr.reduce((prev,curr)=>prev + curr);
+    return [arr, fibonaci];
+}
+console.log(makeFibonaci());
+*/
+
+const fib = [1, 2, 3, 5, 8, 13, 21, 34, 55, 89,];
+
+const makeFibonaci =(numbers)=>{
+    const fib = numbers.map((num)=>  num.push())
+}
+console.log(makeFibonaci(fib))
