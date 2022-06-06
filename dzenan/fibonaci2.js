@@ -44,7 +44,7 @@ while (niz[i - 2] + niz[i - 1] <= 4000000) {
 }*/
 
 
-/* Ova funkcija radi glAVNI PRINCINP FIBONACIJEVOG NIZA
+//Ova funkcija radi glAVNI PRINCINP FIBONACIJEVOG NIZA
 const racunaj =()=>{
 
     const niz = [1, 2];
@@ -54,8 +54,8 @@ const racunaj =()=>{
     return dva;
 
 }
-console.log(racunaj())
-*/
+console.log('Ispisi prvi krug niza :      ', racunaj())
+
 
 const finFibNum =() =>{
     const array = [1, 2]
@@ -74,7 +74,7 @@ const finFibNum =() =>{
     }, 0);                                  //way 0 ?
     return saberi;
 }
-console.log(finFibNum())
+console.log('Konaacan broj je:         ', finFibNum())
 
 /* moze i ovako ali je komlikovnije
 if (curr % 2 === 0) {
