@@ -56,3 +56,29 @@ const racunaj =()=>{
 }
 console.log(racunaj())
 */
+
+const finFibNum =() =>{
+    const array = [1, 2]
+    let i = 2;
+    while (array[i-2]  + array[i-1] <= 4000000) {
+        array.push(array[i-2]  + array[i-1])
+        i++;
+    }    
+
+    const saberi = array.reduce((prev, curr)=>{
+        if (curr % 2 === 0) {
+            return prev + curr;
+        }else{
+            return prev;
+        }
+    }, 0);                                  //way 0 ?
+    return saberi;
+}
+console.log(finFibNum())
+
+/* moze i ovako ali je komlikovnije
+if (curr % 2 === 0) {
+            return prev + curr;
+        }else if(prev % 2 === 0){
+            return prev;
+        } */
