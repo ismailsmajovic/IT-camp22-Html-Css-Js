@@ -82,3 +82,5 @@ if (curr % 2 === 0) {
         }else if(prev % 2 === 0){
             return prev;
         } */
+
+console.log('-------------------------');
