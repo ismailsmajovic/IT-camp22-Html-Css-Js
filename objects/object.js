@@ -18,9 +18,14 @@ setInterval(vreme, 1000);
 const myCar = {
     marka: 'audi',
      mercedes:{
-        boja: 'crna'
+        'boja-b': 'crna',
+        menjac: 'auto'
     },
 
-    boja: 'crvena'
+    boja: 'crvena',
+    menjac: 'automatski'
 }
-console.log('moj auto je:', myCar.mercedes.boja)
+console.log('moj auto je:', myCar['mercedes']['boja-b'])
+console.log('bija je:', myCar.mercedes["boja-b"])
+console.log('menjac je:', myCar.mercedes.menjac)
+
