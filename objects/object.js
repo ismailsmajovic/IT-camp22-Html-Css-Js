@@ -1,9 +1,9 @@
-/*const broj = 20;
+const broj = 20;
 
 const broj2 = Math.SQRT2(broj);
 
-console.log(broj2);*/
-/*
+console.log(broj2);
+
 const vreme =()=>{
     let date = new Date();
     //let cas = now.getHours();
@@ -14,7 +14,9 @@ const vreme =()=>{
     //return date;
 }
 setInterval(vreme, 1000);
-*/
+
+
+
 const myCar = {
     marka: 'audi',
      mercedes:{
@@ -28,4 +30,18 @@ const myCar = {
 console.log('moj auto je:', myCar['mercedes']['boja-b'])
 console.log('bija je:', myCar.mercedes["boja-b"])
 console.log('menjac je:', myCar.mercedes.menjac)
+
+
+const radanik ={
+    ime:'bob',
+    prezime: 'euroblok',
+    job:'programer',
+    age:'30',
+    radniSati:40,
+    dnevnica: 20
+
+}
+
+
+console.log(radanik.ime)
 
