@@ -45,12 +45,14 @@ const myCar ={
         godina2: 2019,
         godina3: 2020,
         novaAuta:{
-            marka1: 'Tek izasao',
+            marka1: 2024,
             marka2: 2022,
             marka3: 2023,
         }
     },
-    
+    prosecnaStarost: function (){
+        return this.godinaProizvodnje.godina1 + this.godinaProizvodnje.godina2 + this.godinaProizvodnje.godina3 + this.godinaProizvodnje.novaAuta.marka1 + this.godinaProizvodnje.novaAuta.marka2;  //zanimljivo isprintalo je dva rezultata
+    }
 }
 
-console.log(myCar.prosecnaKm(), myCar.predjenaKilometraza.marka1, myCar.godinaProizvodnje.godina1, myCar.godinaProizvodnje.novaAuta.marka1);
+console.log(myCar.prosecnaKm(), myCar.predjenaKilometraza.marka1, myCar['boje']['boja1'], myCar.godinaProizvodnje.novaAuta.marka1, myCar.prosecnaStarost());
