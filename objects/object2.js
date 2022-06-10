@@ -8,7 +8,7 @@ const myCar ={
     marka5: 'pezo',
     },
     predjenaKilometraza:{
-        marka1: 250000,
+        marka1: 250000,       //da li moze imati vise vrednosti kluc npr string i broj vracena', 
         marka2: 300000,
         marka3: 500000,
         marka4: 200000,
@@ -50,6 +50,7 @@ const myCar ={
             marka3: 2023,
         }
     },
+    
 }
 
-console.log(myCar.prosecnaKm() , myCar.predjenaKilometraza.marka1, myCar.godinaProizvodnje.godina1, myCar.godinaProizvodnje.novaAuta.marka1);
+console.log(myCar.prosecnaKm(), myCar.predjenaKilometraza.marka1, myCar.godinaProizvodnje.godina1, myCar.godinaProizvodnje.novaAuta.marka1);
