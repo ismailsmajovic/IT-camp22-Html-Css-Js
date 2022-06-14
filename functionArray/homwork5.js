@@ -15,4 +15,4 @@ const dogAgeHuman4 =(ages)=>{
 console.log(dogAgeHuman4(DATA1));
 */
 
-console.log('huh');
+console.log('gdsg');

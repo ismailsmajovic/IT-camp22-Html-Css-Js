@@ -8,7 +8,7 @@ const myCar ={
     marka5: 'pezo',
     },
     predjenaKilometraza:{
-        marka1: 250000,       //da li moze imati vise vrednosti kluc npr string i broj vracena', 
+        marka1: 250000,       //da li moze imati vise vrednosti kljuc npr string i broj vracena', 
         marka2: 300000,
         marka3: 500000,
         marka4: 200000,
@@ -21,7 +21,7 @@ const myCar ={
          + this.predjenaKilometraza.marka2
           + this.predjenaKilometraza.marka3
            + this.predjenaKilometraza.marka4
-           + this.predjenaKilometraza.marka5 / 5     // way can cut with predjenaKimlometraza
+           + this.predjenaKilometraza.marka5 / 5     // zasto ne moze da se podeli sa kao sa nizovima predjenaKimlometraza
     },
 
     boje: {
@@ -51,8 +51,15 @@ const myCar ={
         }
     },
     prosecnaStarost: function (){
-        return this.godinaProizvodnje.godina1 + this.godinaProizvodnje.godina2 + this.godinaProizvodnje.godina3 + this.godinaProizvodnje.novaAuta.marka1 + this.godinaProizvodnje.novaAuta.marka2;  //zanimljivo isprintalo je dva rezultata
-    }
+        return this.godinaProizvodnje.godina1 + this.godinaProizvodnje.godina2 + this.godinaProizvodnje.godina3;  //+ this.godinaProizvodnje.novaAuta.marka1 + this.godinaProizvodnje.novaAuta.marka2;  //zanimljivo isprintalo je dva rezultata
+    },
+
+
+
+    napraviVS: function(){
+        return [this.boje.boja1.toUpperCase(), this.boje.boja2.toUpperCase()];   //kako ovde vise elementa da pretvorimo u velika slova, pa logicno preko nizova 
+    },
 }
 
-console.log(myCar.prosecnaKm(), myCar.predjenaKilometraza.marka1, myCar['boje']['boja1'], myCar.godinaProizvodnje.novaAuta.marka1, myCar.prosecnaStarost());
+console.log(myCar.prosecnaKm(), myCar.predjenaKilometraza.marka1, myCar['boje']['boja1'], myCar.godinaProizvodnje.novaAuta.marka1, myCar.prosecnaStarost(), myCar.napraviVS());
+

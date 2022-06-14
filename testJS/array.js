@@ -31,7 +31,7 @@ console.log(playWithArray(array));
 
 
 //  PRVI ZADTAK const brojevi = [21, 32, 78, 12, 98] Sledeci niz kilometara pretvoriti u metre, i te metre kvadriraTI I KVADRte tih metrara sabrati i smestity u promenjivu Konacno resenje i na kraju vrati tu promenjicvu
-
+/*
 const brojevi = [1, 3, 8, 9];
 
 const metriUKilomerte =(numbers)=>{
@@ -50,7 +50,7 @@ const metriUKilomerte =(numbers)=>{
 console.log('ovo je resenje:',metriUKilomerte(brojevi));
 
 
-
+*/
 
 //  OVOM zadtsaku uraditi jos jedan niz
 const brojevi3 = [1, 3, 8, 9];
@@ -67,10 +67,9 @@ const metriUKilomerte2 =(numbers2, numbers3)=>{
      const  kvadrat2 = metri2.map((nums) =>{
          return nums * nums;
      })
-     cons
      const konacnoResenje2 = kvadrat2.reduce((kvadrat2, nums)=>{          //da li stavio totsal ili value ili kavdrat nebitno je reyultat je isti
          return kvadrat2 + nums;
      });
-     return [metri2,  konacnoResenje2]; 
+     return [metri2, kvadrat2, konacnoResenje2]; 
 }
 console.log('ovo je plan, i radsi samo ako promenimo redosled pozivanja:',metriUKilomerte2(brojevi3, brojevi4));
