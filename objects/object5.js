@@ -8,24 +8,29 @@ const students =[
     {ime: 'Nikola', grade: 6, year: 1},
 ];
 
-function getAverageGrade (array){
-   // const niz = [];
+const getAverageGrade =(array)=>{
+   /* const everyRating = array.map((arr)=>
+     arr.grade
+    )*/
 
-    //const noviNiz = array.map((arr)=>{
-       // return arr.grade;
-   // });
+    const amina = array.filter((arr)=> {
+        
+        return arr.ime === 'Amina'
+    });
 
-    const skup = array.filter((arr) =>
-        arr.year  <= 3
-    )
-    //const noviNiz = niz.push(students.grade)
-    //const skup = noviNiz.reduce((prev, post)=>{
-       // return prev + post / noviNiz.length;
-   // })
+    const aminaRating = amina.map((arr)=>{
+        return arr.grade;
+    })
 
-    return  skup;
+   const aminaYear = amina.map((arr)=>{
+       return arr.year;
+   })
 
+    return [amina, aminaRating, aminaYear];
 }
+
+   
+
 console.log(getAverageGrade(students));
 
 //console.log('radi')
