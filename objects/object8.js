@@ -17,7 +17,7 @@ const newNames = [...names]
 
 console.log(newNames)*/
 
-const name = [232,345, 654,43, 88,88];
+const name = ['33', '33', '44', '44'];
 
 const nema = [...new Set(name)];
 
@@ -27,3 +27,9 @@ console.log(nema)
 const newMovies =()=>{
 
 }
+
+/*
+\\\
+arr = [2,3,12,65,22]
+target =34
+*/
