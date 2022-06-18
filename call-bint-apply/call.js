@@ -6,7 +6,7 @@ const person ={
 }
 
 function sayHelo(){
-    console.log(`Cao ${this.name} ${this.surname}, cuo sam da si dobar  ${this.theBestQuality} `)
+    console.log(`Cao ${this.name} ${this.surname}, cuo sam da si dobar  ${this.theBestQuality} `);
 }
 
 //console.log(sayHelo.call(person))  ///vec imamo gore isois u konzoli tako da ga ne motamo ovde pozivati console.log
