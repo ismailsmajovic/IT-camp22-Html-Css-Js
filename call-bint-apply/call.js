@@ -14,3 +14,5 @@ sayHelo.call(person);
 //sayHelo(person);
 /* Dakl funkcija Call nam omogucava  i позива функцију са this овом вредношћу и аргументима који су дати појединачно. 
 Bez ove funckcije this vAN fukcije ili objektra nema nikakvog smisla*/
+
+
