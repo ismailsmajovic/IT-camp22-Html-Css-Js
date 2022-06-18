@@ -17,3 +17,9 @@ function randomFraction() {
   }
   
   console.log(randomRange(5,15))
+
+  function checkEqual(a, b) {
+    return a > b ?  'Not Equal' : 'Equal';
+  }
+  
+  console.log(checkEqual(1, 2));
