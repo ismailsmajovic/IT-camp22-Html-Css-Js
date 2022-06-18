@@ -4,7 +4,7 @@ let person ={
     value: 'man',
 }
 
-function findSomething ( surname, age ){                              //cudso ne radi preko arrow funkcije
+function findSomething ( surname, age ){                              //ne radi sa arrow function 
     return `${this.ime} ${surname} ${age}`;
 }
 
