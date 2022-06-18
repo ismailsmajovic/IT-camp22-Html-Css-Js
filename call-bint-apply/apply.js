@@ -14,11 +14,12 @@ const myCar = {
 }
 
 function makeSomethnig(transmision, rating){
-    return `${this.marka} ${this.godiste.oldajmeri.godinaProizvodnje3} ${transmision} ${rating}`
+    return `${this.marka} ${this.godiste.oldajmeri.godinaProizvodnje3} ${transmision} ${rating}`;
 }
 
 // sa call funckcijom
 console.log(makeSomethnig.call(myCar, 'godiste, i ima automtski menjac i ocenu', 9.5 ));
 
-// sa apply funkcijeom
+// sa apply funkcijom
 console.log(makeSomethnig.apply(myCar, ['to je dobar oldjamer ima automtski menjac i ocenu ', 6 ]))
+
