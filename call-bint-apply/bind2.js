@@ -9,20 +9,18 @@ const myComputers ={
 }
 
 function withBintFunction(colors, rating){
-    return `${this.mark} ${this.model} ${colors} ${rating}`
+    return `${this.mark} ${this.model} ${colors} ${rating}`;
 }
 
+//with call function 
+console.log(withBintFunction.call(myComputers, 'je crvene boje', 9));
 
-// with CALL function
-console.log(withBintFunction.call(myComputers, 'ima crvenu(call) boju, i ocenu', 3));
+//with apply function
+console.log(withBintFunction.apply(myComputers, ['je bele boje', 8]));
 
-
-//with APPLY function
-console.log(withBintFunction.apply(myComputers, ['ima belu (apply) boju, i ocenu', 4]));
-
-
-
-//with BIND function
+//with bind function 
 const withBind = withBintFunction.bind(myComputers);
+console.log(withBind('je crne boje', 6));
 
-console.log(withBind('ima crnu(bind) boju, i ocenu', 5))
+
+
