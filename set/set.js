@@ -77,11 +77,3 @@ const newMovies =()=>{
 
 }*/
 
-const object1 ={
-    name: 'isko',
-    surname: 'smajovic',
-    age: 24,
-}
-
-console.log(Object.values(object1));
-

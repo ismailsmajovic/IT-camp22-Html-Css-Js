@@ -9,6 +9,3 @@ function nekiPosao(){
 
 }
 
-const job = new Promise(){
-    
-}
