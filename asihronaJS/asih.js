@@ -5,4 +5,10 @@ function nekiPosao(){
         
     }
     console.log("kraj posla")
+
+
+}
+
+const job = new Promise(){
+    
 }
