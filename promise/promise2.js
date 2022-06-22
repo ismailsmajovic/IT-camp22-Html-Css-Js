@@ -20,5 +20,6 @@ obcecanje1
 .catch((message)=>{
     console.log('greska', message)
 })
+//.finally
 
 console.log('POCNI...')

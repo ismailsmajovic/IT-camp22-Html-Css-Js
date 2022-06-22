@@ -26,12 +26,12 @@ const myPromise = new Promise((resolve, rejected)=>{
  myPromise
 .then((mes)=>{
     console.log('uspesno povukao podatke =', mes);
-    //arr = data.filter((el)=> el  % 2 === 0);
-    //return arr;
-})/*
+     let arr = mes.filter((el)=> el  % 2 === 0);
+    return arr;
+})
 .then((arg1)=>{
     console.log('druga funkcija', arg1)
-})*/
+})
 .catch((mesage)=>{
     console.log('neuspesno povukao podatke = ', mesage)
 })
