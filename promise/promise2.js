@@ -19,4 +19,4 @@ newPromise
     console.log('los broj', mesage)    //los broj true
 })
 
-console.log('Pa da pocnemo...');
+console.log('Pa da pocnemo...');  
