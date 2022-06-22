@@ -1,22 +1,24 @@
-const newPromise = new Promise((resolve, rejected)=>{
-    //response = 15;
+const obcecanje1 = new Promise((resolve, rejected)=>{
+
     setTimeout(()=>{
-        let randomNum = (Math.random() * 20).toFixed(2)    // svaki put dobijemo razlicti rezultat zbog toga sto Math.random baca slucajan broj
-
-        if (randomNum >= 10) {
-            resolve('on je 10 ili veci')
-        }else{
-            rejected('on je 9 ili manji')
+        let nova = (Math.random() * (60-1)).toFixed(2);
+        if (nova  < 30) {
+            rejected('this numbers is very bad');
+        }else if(nova > 35 && nova < 40 ){
+            rejected('zamalo');
+        }else if(nova > 50){
+            resolve('good numbr')
         }
-    }, 3000)
-})
 
-newPromise
+    }, 2000)
+})  
+
+obcecanje1
 .then((message)=>{
-    console.log('dobar broj', message)    //dobar broj true
+    console.log('ovo je trazeni broj',message);
 })
-.catch((mesage)=>{
-    console.log('los broj', mesage)    //los broj true
+.catch((message)=>{
+    console.log('greska', message)
 })
 
-console.log('Pa da pocnemo...');  
+console.log('POCNI...')
