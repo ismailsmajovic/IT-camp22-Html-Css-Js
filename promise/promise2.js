@@ -1,24 +1,24 @@
 const obcecanje1 = new Promise((resolve, rejected)=>{
 
     setTimeout(()=>{
-        let nova = (Math.random() * (60-1)).toFixed(2);
+        let nova = (Math.random() * (60-1)).toFixed(0);    // Kako da dobijemo ovaj slucajan broj u konzoli
         if (nova  < 30) {
-            rejected('this numbers is very bad');
+            rejected( nova);
         }else if(nova > 35 && nova < 40 ){
-            rejected('zamalo');
+            rejected( nova);
         }else if(nova > 50){
-            resolve('good numbr')
+            resolve( nova)
         }
 
     }, 2000)
 })  
 
 obcecanje1
-.then((message)=>{
-    console.log('ovo je trazeni broj',message);
+.then((mesage)=>{
+    console.log('pogodak, trazeni broj je: ', mesage);
 })
-.catch((message)=>{
-    console.log('greska', message)
+.catch((mesage)=>{
+    console.log('greska,  trazeni broj je: ', mesage)
 })
 //.finally
 

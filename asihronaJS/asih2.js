@@ -6,13 +6,13 @@ function drugiPosao(){
  function nekiPosao(arg1){
 
     console.log('ceo niz (1)');
-
-    setTimeout(()=>{
-        console.log('filter niza (2)');
+    const a = ()=>{
         arg1();
-    });
+        console.log('filter niza (2)');
+    }
+    setTimeout(a,500);
 
-    console.log('filter');
+    //console.log('filter');
  }
 
  nekiPosao(drugiPosao);
