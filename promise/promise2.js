@@ -12,7 +12,7 @@ const obcecanje1 = new Promise((resolve, rejected)=>{
 
     }, 2000)
 })  
-
+ 
 obcecanje1
 .then((mesage)=>{
     console.log('pogodak, trazeni broj je: ', mesage);
